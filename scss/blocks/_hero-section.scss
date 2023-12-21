@@ -1,0 +1,54 @@
+.hero__card{
+  background-image: url("../../Images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  border-radius: 7px;
+  padding: 117px 0px 127px 86px;
+}
+.hero {
+  width: 493px;
+
+}
+.hero__title{
+  color: #FEFCF7;
+  font-family: "Fraunces 9pt";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.hero__wrapper {
+  width: 417px;
+}
+.hero__text {
+  color: #FEFCF7;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 1px;
+  opacity: 0.8;
+  margin-bottom: 56px;
+}
+.hero__link {
+  display: inline-block;
+  width: 217px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #0E8784;
+  color: #FEFCF7;
+  padding: 15px 31px;
+  text-align: center;
+  font-family: Fraunces 9pt;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  transition: all 0.3s;
+
+  &:hover{
+    background: #66D2CF;
+  }
+}

@@ -1,0 +1,16 @@
+.site-header{
+  padding: 44px 0px 50px 0px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo-link{
+  display: inline-block;
+  transition: all 0.3s;
+
+  &:hover{
+    opacity: 75%;
+  }
+}

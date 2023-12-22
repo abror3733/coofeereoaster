@@ -1,25 +1,25 @@
-.collaction{
+.collection{
   background-image: url("../../Images/collection-bg.png");
   background-repeat: no-repeat;
   background-position-x: calc(50% + 15%);
   background-position-y: calc(50% - 35%);
   padding: 90px 0px 200px;
 }
-.collaction__list{
+.collection__list{
   display: flex;
   justify-content: space-between;
   align-items: start;
 }
-.collaction__item{
+.collection__item{
   width: 255px;
   text-align: center;
   padding: 126px 0px 0px;
 }
-.collaction__item-img{
+.collection__item-img{
   display: inline-block;
   margin-bottom: 71px;
 }
-.collaction__item-title {
+.collection__item-title {
   color: #333D4B;
   text-align: center;
   font-family: 'Fraunces 9pt';
@@ -31,7 +31,7 @@
   display: block;
   margin-bottom: 24px;
 }
-.collaction__item-text {
+.collection__item-text {
   color: #333D4B;
   text-align: center;
   font-size: 16px;
